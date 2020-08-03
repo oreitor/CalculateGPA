@@ -1,7 +1,7 @@
 # Calculate GPA
 
-This project related to GPA calculation at Yildiz Technical University and this can be done very easily.
-- Upload excel document about the courses from Student Enrollment Info on USIS which is Student Information System at YTU.
+This project related to GPA calculation at Yildiz Technical University. It can be done very easily by following the steps below.
+- Upload excel document about the courses from Student Enrollment Info on USIS which is Student Information System at Yildiz Technical University.
 - Rename this document to "export.xls".
 - Run to [CalculateGPA](https://github.com/oreitor/CalculateGPA/blob/master/CalculateGPA.py) code.
 
@@ -9,11 +9,13 @@ Moreover, [EditableVersion](https://github.com/oreitor/CalculateGPA/blob/master/
 With this code, new courses can be added, remove any courses or change the grade of the selected course.
 After the changes, you can calculate the new GPA and easily estimate your future GPA.
 
-### Additional information
+### Additional Information
 
-encoding="UTF-16"
+##### BeautifulSoup
+Beautiful Soup is a Python library for getting data out of HTML, XML, and other markup languages. It helps you pull particular content from a webpage, remove the HTML markup, and save the information. The question is why we use this module in this project, although its data is taken from excel. The reason is that, the excel table taken from the USIS system is created in HTML format. You can see that this is not a regular text file when you want to read the file or open with notepad. Therefore, we have to import Beautiful Soup module for this project. 
 
-BeautifulSoup and "html.parser"
+##### Unicode: encoding="UTF-16"
+Additionally, UTF-8 is used by about 95% of all web pages. In contrast, USIS system is in the very rare UTF-16 format. That's why we prefer UTF-16 for Unicode when reading with the open() function.
 
 # Possible Errors
 
