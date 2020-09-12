@@ -1,7 +1,7 @@
 # Calculate GPA
 
-This project related to GPA calculation at Yildiz Technical University. It can be done very easily by following the steps below.
-- Upload excel document about the courses from Student Enrollment Info on USIS which is Student Information System at Yildiz Technical University.
+This project is related to GPA calculation using Python Pandas library from Student Information System data at Yıldız Technical University.
+- Upload excel document about the courses from Student Enrollment Info on USIS.
 - Rename this document to "export.xls".
 - Run to [CalculateGPA](https://github.com/oreitor/CalculateGPA/blob/master/CalculateGPA.py) code.
 
