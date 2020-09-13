@@ -1,6 +1,6 @@
 # Calculate GPA
 
-This project is related to GPA calculation using Python Pandas library from Student Information System data at Yıldız Technical University.
+This project is related to GPA calculation with Python Pandas library using Student Information System data at Yildiz Technical University.
 - Upload excel document about the courses from Student Enrollment Info on USIS.
 - Rename this document to "export.xls".
 - Run to [CalculateGPA](https://github.com/oreitor/CalculateGPA/blob/master/CalculateGPA.py) code.
